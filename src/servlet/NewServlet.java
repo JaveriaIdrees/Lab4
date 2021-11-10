@@ -13,7 +13,7 @@ public class NewServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse
             response) throws ServletException, IOException {
         PrintWriter out = response.getWriter();
-        out.println("Servlet called");
+        out.println("My servlet Called");
         out.println("Data Inserted Successfully");
         String username = request.getParameter("username");
         /*DbConnection dbConnection;
