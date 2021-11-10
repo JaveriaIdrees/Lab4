@@ -109,6 +109,4 @@ fabric.properties
 .idea/scopes/
 .idea/vcs.xml
 Lab4.iml
-src/
-web/WEB-INF/
-web/index.jsp
+
